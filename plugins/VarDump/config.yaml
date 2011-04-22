@@ -1,0 +1,11 @@
+name: Var Dump
+id:   VarDump
+key:  vardump
+version: 0.1
+author_link: https://alfasado.net/
+author_name: Alfasado Inc.
+l10n_class: VarDump::L10N
+description: <__trans phrase="Dumper MTVars.">
+tags:
+    function:
+        VarDump: $vardump::VarDump::Tags::_hdlr_vardump
