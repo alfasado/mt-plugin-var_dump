@@ -5,6 +5,6 @@ use base 'VarDump::L10N';
 use vars qw( %Lexicon );
 
 our %Lexicon = (
-    'Dumper MTVars.' => 'MTVarに格納されている値をダンプ出力します。',
+    'Dumper MTVars, Cookies, Params and Server Environment.' => 'MTVarの値、Cookie、URLパラメタ、サーバー環境変数をダンプ出力します。',
     );
 1;

@@ -1,11 +1,14 @@
 name: Var Dump
 id:   VarDump
 key:  vardump
-version: 0.1
+version: 0.2
 author_link: https://alfasado.net/
 author_name: Alfasado Inc.
 l10n_class: VarDump::L10N
-description: <__trans phrase="Dumper MTVars.">
+description: <__trans phrase="Dumper MTVars, Cookies, Params and Server Environment.">
 tags:
     function:
         VarDump: $vardump::VarDump::Tags::_hdlr_vardump
+        CookieDump: $vardump::VarDump::Tags::_hdlr_cookiedump
+        QueryDump: $vardump::VarDump::Tags::_hdlr_querydump
+        EnvDump: $vardump::VarDump::Tags::_hdlr_envdump
